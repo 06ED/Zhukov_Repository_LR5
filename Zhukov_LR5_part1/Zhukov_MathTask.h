@@ -16,7 +16,9 @@ inline bool UserInput(const string &input) {
     }
 
     try {
-        stoi(input);
+        if (const int number = stoi(input); number < 0 || input.length() != std::to_string(number).length()) {
+            return false;
+        }
     } catch (...) {
         return false;
     }
