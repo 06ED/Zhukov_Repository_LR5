@@ -4,9 +4,9 @@
 
 #include "Zhukov_MathTask.h"
 
-#include "../CUTE/cute/cute.h"
-#include "../CUTE/cute/ide_listener.h"
-#include "../CUTE/cute/cute_runner.h"
+#include "CUTE/cute/cute.h"
+#include "CUTE/cute/ide_listener.h"
+#include "CUTE/cute/cute_runner.h"
 
 using namespace cute;
 
